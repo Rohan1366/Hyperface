@@ -1,0 +1,47 @@
+#wrapper > div img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: auto;
+}
+#wrapper > div > div:first-child {
+  margin: auto;
+  margin-top: 30px;
+}
+#wrapper > div > div:nth-child(2) {
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper > div > div:nth-child(2) > h1 {
+  width: inherit;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+  text-wrap: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+}
+#wrapper > div > div:nth-child(2) > p {
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.view {
+  background-color: #4a4d55;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+@media screen and (width<650px) {
+  #wrapper > div img {
+    height: 30vh;
+  }
+}

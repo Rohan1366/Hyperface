@@ -1,0 +1,50 @@
+.wrapper button {
+  background-color: #101010;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+.wrapper button > span {
+  color: white;
+  position: absolute;
+  margin-left: -19px;
+  margin-top: 9px;
+  font-size: 10px;
+  border: none;
+}
+
+.wrapper > div {
+  margin: auto;
+  margin-top: 30px;
+}
+.wrapper > div {
+  margin: auto;
+  margin-top: 30px;
+}
+.range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range > input {
+  width: 100%;
+  margin: 5px 0;
+  height: "4px";
+  background-color: "red";
+  color: "red";
+  border: 1px solid red;
+}
+.timing {
+  display: flex;
+  align-items: center;
+  padding: 0 2px;
+  justify-content: space-between;
+}
+.player {
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+  align-items: center;
+  padding: 0 2px;
+  justify-content: space-between;
+}
